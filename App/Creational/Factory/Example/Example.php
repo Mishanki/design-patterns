@@ -1,9 +1,15 @@
 <?php
 
-namespace App\Creational\Factory;
+namespace App\Creational\Factory\Example;
+
+use App\Creational\Factory\FileLoggerFactory;
+use App\Creational\Factory\StdoutLoggerFactory;
 
 class Example
 {
+    /**
+     * @return void
+     */
     public function usage()
     {
         $loggerFactory = new StdoutLoggerFactory();
