@@ -1,7 +1,7 @@
 # Design Patterns
 ### This is a collection of known design patterns and some sample code how to implement them
 
-## Creational
+### Creational
 In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
 ```
@@ -14,7 +14,7 @@ In software engineering, creational design patterns are design patterns that dea
 7. Singleton
 8. Static Factory
 ```
-## Structural
+### Structural
 In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
 ```
@@ -30,7 +30,7 @@ In Software Engineering, Structural Design Patterns are Design Patterns that eas
 10. Proxy
 11. Registry
 ```
-## Behavioral
+### Behavioral
 In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 ```
 1. Chain Of Responsibilities
@@ -48,10 +48,17 @@ In software engineering, behavioral design patterns are design patterns that ide
 13. Visitor
 ```
 
-## More
+### More
 Others patterns...
 ```
 1. Service Locator
 2. Repository
 3. Entity-Attribute-Value (EAV)
+```
+
+### Test
+Start unit tests
+
+```bash
+vendor/phpunit/phpunit/phpunit
 ```
