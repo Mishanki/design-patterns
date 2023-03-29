@@ -1,0 +1,14 @@
+{
+  "description": "Design Patterns",
+  "keywords": ["Creational", "Structural", "Behavioral", "Factory", "Singleton", "Decorator", "Facade", "Iterator"],
+  "autoload": {
+      "psr-4": {
+          "Services\\": "Services",
+          "App\\": "App"
+      }
+  },
+  "require": {
+    "php": "^8.2",
+    "friendsofphp/php-cs-fixer": "^3.0"
+  }
+}
