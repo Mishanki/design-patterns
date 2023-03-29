@@ -2,7 +2,7 @@
 
 namespace App\Creational\Factory\Classes;
 
-use App\Creational\Factory\Interface\Logger;
+use App\Creational\Factory\Interfaces\Logger;
 
 class FileLogger implements Logger
 {

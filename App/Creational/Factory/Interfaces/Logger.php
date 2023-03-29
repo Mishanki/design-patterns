@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Creational\Factory\Interface;
+namespace App\Creational\Factory\Interfaces;
 
 interface Logger
 {
