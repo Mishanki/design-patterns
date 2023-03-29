@@ -14,7 +14,7 @@ In software engineering, creational design patterns are design patterns that dea
 5. Prototype
 6. Simple Factory
 7. Singleton
-8. Static Factory
+8. [Static Factory](Examples/Creational/StaticFactory)
 
 ### Structural
 In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
