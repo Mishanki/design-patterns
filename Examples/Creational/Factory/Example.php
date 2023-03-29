@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Creational\Factory\Example;
+namespace Examples\Creational\Factory;
 
 use App\Creational\Factory\FileLoggerFactory;
 use App\Creational\Factory\StdoutLoggerFactory;
