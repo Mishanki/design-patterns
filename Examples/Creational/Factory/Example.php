@@ -12,8 +12,6 @@ class Example
      * For simple cases, this abstract class could be just an interface.
      * This pattern is a “real” Design Pattern because it achieves the Dependency Inversion principle a.k.a the “D” in SOLID principles.
      * It means the FactoryMethod class depends on abstractions, not concrete classes. This is the real trick compared to SimpleFactory or StaticFactory.
-     *
-     * @return void
      */
     public function usage()
     {
