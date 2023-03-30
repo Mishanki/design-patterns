@@ -25,7 +25,7 @@ In Software Engineering, Structural Design Patterns are Design Patterns that eas
 4. Data Mapper
 5. [Decorator](Examples/Structural/Decorator)
 6. Dependency Injection
-7. Facade
+7. [Facade](Examples/Structural/Facade)
 8. Fluent Interface
 9. Flyweight
 10. Proxy

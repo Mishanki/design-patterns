@@ -7,6 +7,9 @@ use App\Structural\Decorator\Classes\WiFi;
 
 class Example
 {
+    /**
+     * To dynamically add new functionality to class instances.
+     */
     public function usage()
     {
         $booking = new DoubleRoomBooking();
