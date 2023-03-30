@@ -20,7 +20,7 @@ In software engineering, creational design patterns are design patterns that dea
 In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
 1. Adapter / Wrapper
-2. Bridge
+2. [Bridge](Examples/Structural/Bridge)
 3. Composite
 4. Data Mapper
 5. [Decorator](Examples/Structural/Decorator)
