@@ -1,6 +1,7 @@
 <?php
 
 namespace Examples\Structural\Decorator;
+
 use App\Structural\Decorator\Classes\DoubleRoomBooking;
 use App\Structural\Decorator\Classes\ExtraBed;
 use App\Structural\Decorator\Classes\WiFi;
