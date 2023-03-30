@@ -9,12 +9,15 @@ use App\Creational\AbstractFactory\UnixWriterFactory;
 use App\Creational\AbstractFactory\WinWriterFactory;
 use PHPUnit\Framework\TestCase;
 
-class AbstractFactoryTest extends TestCase
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
+final class AbstractFactoryTest extends TestCase
 {
     /**
      * @param WriterFactory $writerFactory
-     *
-     * @return void
      *
      * @dataProvider dataProvider
      */

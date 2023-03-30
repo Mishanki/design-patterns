@@ -5,10 +5,14 @@ namespace Tests\Creational\StaticFactory;
 use App\Creational\StaticFactory\Classes\FormatNumber;
 use App\Creational\StaticFactory\Classes\FormatString;
 use App\Creational\StaticFactory\StaticFactory;
-use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
-class StaticFactoryTest extends TestCase
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
+final class StaticFactoryTest extends TestCase
 {
     public function testCanCreateNumberFormatter()
     {
@@ -22,7 +26,7 @@ class StaticFactoryTest extends TestCase
 
     public function testException()
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::class);
 
         StaticFactory::factory('object');
     }

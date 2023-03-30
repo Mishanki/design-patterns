@@ -8,7 +8,12 @@ use App\Creational\Factory\FileLoggerFactory;
 use App\Creational\Factory\StdoutLoggerFactory;
 use PHPUnit\Framework\TestCase;
 
-class FactoryTest extends TestCase
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
+final class FactoryTest extends TestCase
 {
     public function testCanCreateStdoutLogging()
     {
