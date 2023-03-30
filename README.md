@@ -11,7 +11,7 @@ In software engineering, creational design patterns are design patterns that dea
 2. [Builder](Examples/Creational/Builder)
 3. [Factory Method](Examples/Creational/Factory)
 4. Pool
-5. Prototype
+5. [Prototype](Examples/Creational/Prototype)
 6. [Simple Factory](Examples/Creational/SimpleFactory)
 7. Singleton
 8. [Static Factory](Examples/Creational/StaticFactory)
