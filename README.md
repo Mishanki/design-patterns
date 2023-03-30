@@ -29,7 +29,7 @@ In Software Engineering, Structural Design Patterns are Design Patterns that eas
 8. Fluent Interface
 9. Flyweight
 10. Proxy
-11. Registry
+11. [Registry](Examples/Structural/Registry)
 
 ### Behavioral
 In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
