@@ -23,8 +23,8 @@ final class AbstractFactoryTest extends TestCase
      */
     public function testCreateWriter(WriterFactory $writerFactory)
     {
-        $this->assertInstanceOf(JsonWriter::class, $writerFactory->createJsonWriter());
-        $this->assertInstanceOf(CsvWriter::class, $writerFactory->createCsvWriter());
+        static::assertInstanceOf(JsonWriter::class, $writerFactory->createJsonWriter());
+        static::assertInstanceOf(CsvWriter::class, $writerFactory->createCsvWriter());
     }
 
     /**

@@ -16,12 +16,12 @@ final class StaticFactoryTest extends TestCase
 {
     public function testCanCreateNumberFormatter()
     {
-        $this->assertInstanceOf(FormatNumber::class, StaticFactory::factory('number'));
+        static::assertInstanceOf(FormatNumber::class, StaticFactory::factory('number'));
     }
 
     public function testCanCreateStringFormatter()
     {
-        $this->assertInstanceOf(FormatString::class, StaticFactory::factory('string'));
+        static::assertInstanceOf(FormatString::class, StaticFactory::factory('string'));
     }
 
     public function testException()

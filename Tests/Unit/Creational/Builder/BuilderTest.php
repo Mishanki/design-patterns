@@ -21,7 +21,7 @@ final class BuilderTest extends TestCase
         $truckBuilder = new TruckBuilder();
         $newVehicle = (new Director())->build($truckBuilder);
 
-        $this->assertInstanceOf(Truck::class, $newVehicle);
+        static::assertInstanceOf(Truck::class, $newVehicle);
     }
 
     public function testCanBuildCar()
@@ -29,6 +29,6 @@ final class BuilderTest extends TestCase
         $carBuilder = new CarBuilder();
         $newVehicle = (new Director())->build($carBuilder);
 
-        $this->assertInstanceOf(Car::class, $newVehicle);
+        static::assertInstanceOf(Car::class, $newVehicle);
     }
 }

@@ -17,7 +17,7 @@ final class SingletonTest extends TestCase
         $firstCall = Singleton::getInstance();
         $secondCall = Singleton::getInstance();
 
-        $this->assertInstanceOf(Singleton::class, $firstCall);
-        $this->assertSame($firstCall, $secondCall);
+        static::assertInstanceOf(Singleton::class, $firstCall);
+        static::assertSame($firstCall, $secondCall);
     }
 }

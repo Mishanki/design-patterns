@@ -17,6 +17,6 @@ final class SimpleFactoryTest extends TestCase
     {
         $bicycle = (new SimpleFactory())->createBicycle();
 
-        $this->assertInstanceOf(Bicycle::class, $bicycle);
+        static::assertInstanceOf(Bicycle::class, $bicycle);
     }
 }

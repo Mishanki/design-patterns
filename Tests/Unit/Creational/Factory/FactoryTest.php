@@ -20,7 +20,7 @@ final class FactoryTest extends TestCase
         $loggerFactory = new StdoutLoggerFactory();
         $logger = $loggerFactory->createLogger();
 
-        $this->assertInstanceOf(StdoutLogger::class, $logger);
+        static::assertInstanceOf(StdoutLogger::class, $logger);
     }
 
     public function testCanCreateFileLogging()
@@ -28,6 +28,6 @@ final class FactoryTest extends TestCase
         $loggerFactory = new FileLoggerFactory(sys_get_temp_dir());
         $logger = $loggerFactory->createLogger();
 
-        $this->assertInstanceOf(FileLogger::class, $logger);
+        static::assertInstanceOf(FileLogger::class, $logger);
     }
 }
