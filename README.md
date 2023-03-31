@@ -1,6 +1,8 @@
 # Design Patterns
 ### This is a collection of known design patterns and some sample code how to implement them
 
+Personal education via source https://designpatternsphp.readthedocs.io
+
 ---
 
 ### Creational
@@ -19,7 +21,7 @@ In software engineering, creational design patterns are design patterns that dea
 ### Structural
 In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
-1. Adapter / Wrapper
+1. [Adapter / Wrapper](Examples/Structural/AdapterOrWrapper)
 2. [Bridge](Examples/Structural/Bridge)
 3. Composite
 4. Data Mapper
